@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  /* fonts */
+
+  --font-generalsans: "General Sans", sans-serif;
   /* colors */
 
   /* black */
@@ -38,7 +41,7 @@
   }
 
   .nav-li {
-    @apply text-neutral-400 hover:text-white  max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+    @apply text-neutral-400 hover:text-white  max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5 font-generalsans;
   }
   .nav-li_a {
     @apply text-lg md:text-base hover:text-white transition-colors;
@@ -62,7 +65,7 @@
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-black leading-normal;
+    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-black leading-normal font-generalsans;
   }
   /* about section */
   .grid-container {
@@ -70,11 +73,11 @@
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white;
+    @apply text-xl font-semibold mb-2 text-white font-generalsans;
   }
 
   .grid-subtext {
-    @apply text-[#afb0b6] text-base;
+    @apply text-white-600 text-base font-generalsans;
   }
 
   .copy-container {
