@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-black-100);
+  font-family: "General Sans", sans-serif;
+}
+
 @theme {
   /* fonts */
 

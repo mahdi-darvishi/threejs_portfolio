@@ -1,9 +1,11 @@
-import "./App.css";
+import Navbar from "./sections/navbar";
 
 function App() {
   return (
-    <div className="">
-      <button className="btn">Click</button>
+    <div>
+      <main className="max-w-7xl mx-auto">
+        <Navbar />
+      </main>
     </div>
   );
 }
